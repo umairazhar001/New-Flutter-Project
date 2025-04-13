@@ -12,7 +12,7 @@ class AuthSuccessScreen extends StatelessWidget {
         backgroundColor: Colors.green,
       ),
       body: Container(
-        color: Colors.grey[200], // Light background color
+        color: Colors.grey[200], 
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,

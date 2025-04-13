@@ -3,7 +3,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:login/widgets/customer_text_field.dart';
 import '../providers/auth_provider.dart';
 import 'auth_success_screen.dart';
-import 'login_screen.dart'; // Import the LoginScreen
+import 'login_screen.dart';
 
 class SignupScreen extends ConsumerWidget {
   @override
@@ -19,7 +19,7 @@ class SignupScreen extends ConsumerWidget {
         backgroundColor: Colors.blueAccent,
       ),
       body: Container(
-        color: Colors.grey[200], // Light background color
+        color: Colors.grey[200], 
         child: Center(
           child: SingleChildScrollView(
             padding: EdgeInsets.all(16),
