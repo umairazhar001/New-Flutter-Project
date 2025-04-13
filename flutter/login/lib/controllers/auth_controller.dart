@@ -1,5 +1,3 @@
-
-
 import '../models/user_model.dart';
 
 class AuthController {
@@ -10,7 +8,6 @@ class AuthController {
 
   UserModel? get currentUser => _currentUser;
 
-  
   bool login(String email, String password) {
     
     try {
@@ -31,7 +28,6 @@ class AuthController {
       return false; 
     }
 
-    
     final newUser = UserModel(name: name, email: email, password: password);
     _users.add(newUser);
     return true; 
